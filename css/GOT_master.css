@@ -150,10 +150,6 @@ main {
 	opacity:1;
 }
 
-/* add styles here for lightbox and video */
-
-
-
 video {
 	width: 80%;
 	margin-top: 10%;
@@ -161,7 +157,7 @@ video {
 }
 
 .vid-controls i{
-	font-size: 3em;
+	font-size: 10em;
     color:white;
     cursor:pointer;
 }

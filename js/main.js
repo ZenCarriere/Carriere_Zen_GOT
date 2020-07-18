@@ -26,7 +26,7 @@
 	function showHideLightBox(){
 		lightBox.classList.toggle('show-lightbox');
 
-		lblVideo.src = `video/House-${houseInfo[this.dataset.offset][0]}.mp4`
+		lblVideo.src = `video/House-${houseInfo[this.dataset.offset][0]}.mp4`;
 		if(lblVideo.paused){
 			lblVideo.play();
 		}
